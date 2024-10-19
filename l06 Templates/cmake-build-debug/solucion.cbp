@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="solucion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\tests\google-test\;CMake Files\tests\google-test\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/base.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 base"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/base.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 base/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej2">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=2"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej2"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej2/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=2"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej3">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=3"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej3"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej3/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=3"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej3/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej4">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=4"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej4"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej4/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=4"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej4/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej1">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=1"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej1"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej1/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=1"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej7">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=7"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej7"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej7/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=7"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej7/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej5">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=5"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej5"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej5/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=5"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej5/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej9">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=9"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej9"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej9/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=9"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej9/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej6">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=6"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej6"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej6/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=6"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej6/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej8">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=8"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej8"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ej8/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/ej8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEJ=8"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 ej8/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/include"/>
+					<Add directory="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/cmake-build-debug/tests/google-test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/test_base.cpp">
+			<Option target="base"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/test_diccionario.cpp">
+			<Option target="ej7"/>
+			<Option target="ej5"/>
+			<Option target="ej9"/>
+			<Option target="ej6"/>
+			<Option target="ej8"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/test_multiconjunto.cpp">
+			<Option target="ej7"/>
+			<Option target="ej9"/>
+			<Option target="ej8"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/test_templates.cpp">
+			<Option target="ej2"/>
+			<Option target="ej3"/>
+			<Option target="ej4"/>
+			<Option target="ej1"/>
+			<Option target="ej7"/>
+			<Option target="ej5"/>
+			<Option target="ej9"/>
+			<Option target="ej6"/>
+			<Option target="ej8"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\google-test\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Gonza/Desktop/l06/ejercitacion_templates_corregida/tests/google-test/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\google-test\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

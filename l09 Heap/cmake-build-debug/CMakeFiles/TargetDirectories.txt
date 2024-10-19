@@ -1,0 +1,6 @@
+/mnt/c/Users/Gonza/Desktop/l09/ejercitacion_heap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Gonza/Desktop/l09/ejercitacion_heap/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/mnt/c/Users/Gonza/Desktop/l09/ejercitacion_heap/cmake-build-debug/CMakeFiles/correrTests.dir
+/mnt/c/Users/Gonza/Desktop/l09/ejercitacion_heap/cmake-build-debug/CMakeFiles/gtest.dir
+/mnt/c/Users/Gonza/Desktop/l09/ejercitacion_heap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Gonza/Desktop/l09/ejercitacion_heap/cmake-build-debug/CMakeFiles/gtest_main.dir

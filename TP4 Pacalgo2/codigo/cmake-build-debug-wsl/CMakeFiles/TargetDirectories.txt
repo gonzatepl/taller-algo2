@@ -1,0 +1,6 @@
+/mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1/cmake-build-debug-wsl/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1/cmake-build-debug-wsl/CMakeFiles/correrValgrind.dir
+/mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1/cmake-build-debug-wsl/CMakeFiles/correrTests.dir
+/mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1/cmake-build-debug-wsl/CMakeFiles/gtest.dir
+/mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1/cmake-build-debug-wsl/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1/cmake-build-debug-wsl/CMakeFiles/gtest_main.dir

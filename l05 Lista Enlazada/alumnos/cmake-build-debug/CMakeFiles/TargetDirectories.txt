@@ -1,0 +1,6 @@
+/cygdrive/c/Users/Gonza/Desktop/l05/alumnos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Gonza/Desktop/l05/alumnos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Gonza/Desktop/l05/alumnos/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/cygdrive/c/Users/Gonza/Desktop/l05/alumnos/cmake-build-debug/CMakeFiles/correrTests.dir
+/cygdrive/c/Users/Gonza/Desktop/l05/alumnos/cmake-build-debug/CMakeFiles/gtest_main.dir
+/cygdrive/c/Users/Gonza/Desktop/l05/alumnos/cmake-build-debug/CMakeFiles/gtest.dir

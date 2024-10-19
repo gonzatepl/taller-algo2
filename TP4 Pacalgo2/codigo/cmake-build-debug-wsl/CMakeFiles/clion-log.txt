@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/Gonza/Desktop/Algoritmos y Estructuras de Datos II/TPs/TP4/tp4_2021_c1/cmake-build-debug-wsl
